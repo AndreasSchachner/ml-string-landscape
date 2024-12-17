@@ -1044,6 +1044,37 @@ def run_GA(
     return population,features,history
 
 
+def load_ga_run(run_folder: str) -> Tuple[Array,Array,Array,Array]:
+    r"""
+    **Description:**
+    Loads GA runs from datafiles.
+    
+    Args:
+        run_folder (str): Path to run files.
+    
+    Returns:
+        Array: Final population.
+        Array: Features of final population.
+        Array: History of all populations.
+        Array: History of all features for each population.
+    
+    """
+    
+    # Load feature files
+    files = glob.glob(run_folder+"features_*")
+    feature_history = np.array([load_zipped_pickle(run_folder+f"features_{i}.p") for i in range(len(files))])
+    
+    # Load population files
+    files = glob.glob(run_folder+"population_*")
+    history = np.array([load_zipped_pickle(run_folder+f"population_{i}.p") for i in range(len(files))])
+    
+    # Get final population and features
+    pop = history[-1]
+    features = feature_history[-1]
+    
+    # Return Values
+    return pop,features,history,feature_history
+    
 
     
         
