@@ -58,6 +58,7 @@ Given the limited time to discuss ML methods in the lecture, here are a couple o
 * [Probabilistic Machine Learning: An Introduction](https://probml.github.io/pml-book/book1.html) by Kevin Patrick Murphy
 * [Lectures at Amsterdam University](https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/JAX/tutorial2/Introduction_to_JAX.html) on `jax` and ML in Physics 
 * Review on [Data science applications to string theory](https://inspirehep.net/literature/1779782) by Fabian Ruehle
+* Lectures on [Naturalness, String Landscape and Multiverse: A Modern Introduction with Exercises](https://link.springer.com/book/10.1007/978-3-030-65151-0) by Arthur Hebecker
 
 
 
