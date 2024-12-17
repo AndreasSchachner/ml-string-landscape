@@ -1,0 +1,9 @@
+numpy
+matplotlib==3.*
+seaborn==0.13.2
+pandas
+scikit-learn==1.6.0
+jax==0.4.37
+jaxlib==0.4.36
+flax==0.10.2
+optax==0.2.4
