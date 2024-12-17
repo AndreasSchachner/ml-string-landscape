@@ -250,6 +250,10 @@ def train_model(
     if len(labels)!=2:
         raise ValueError(f"Labels input needs to be 2-dimensional (tain and test labels), but have {len(labels)}.")
     
+    if rns_key is None:
+        seed = 42
+        rns_key = PRNGSequence(seed)
+        
     train_data, test_data = data
     train_label, test_label = labels
     
