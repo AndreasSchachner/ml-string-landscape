@@ -54,10 +54,10 @@ The notebook [ML_for_flux_vacua.ipynb](./notebooks/ML_for_flux_vacua.ipynb) intr
 ### Resources
 
 Given the limited time to discuss ML methods in the lecture, here are a couple of highly recommended books, lectures and reviews:
-* [Hands-on Machine Learning with Scikit-Learn, Keras & TensorFlow](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/) by Aurélien Géron: 
+* [Hands-on Machine Learning with Scikit-Learn, Keras & TensorFlow](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/) by Aurélien Géron
 * [Probabilistic Machine Learning: An Introduction](https://probml.github.io/pml-book/book1.html) by Kevin Patrick Murphy
 * [Lectures at Amsterdam University](https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/JAX/tutorial2/Introduction_to_JAX.html) on `jax` and ML in Physics 
-* Review on [Data science applications to string theory](https://inspirehep.net/literature/1779782) by Fabian Ruehle:
+* Review on [Data science applications to string theory](https://inspirehep.net/literature/1779782) by Fabian Ruehle
 
 
 
